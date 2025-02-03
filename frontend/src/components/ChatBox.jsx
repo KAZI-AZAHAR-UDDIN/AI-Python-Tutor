@@ -12,8 +12,10 @@ export default function ChatBox() {
   };
 
   const getAiResponse = async (question) => {
+
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
     try {
-      const response = await axios.post("http://localhost:5000/api/ai/chat", {
+      const response = await axios.post(`${API_BASE_URL}/api/ai/chat`, {
         message: question,
       });
 
@@ -59,7 +61,7 @@ export default function ChatBox() {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/api/ai/update-api-key", {
+      const response = await axios.post(`${API_BASE_URL}/api/ai/update-api-key`, {
         newApiKey: apiKey,
       });
 

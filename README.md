@@ -12,7 +12,10 @@ Built with React.js for the frontend and Node.js + Express.js for the backend, t
 ### Home Page
 ![Home Page](/frontend/public/welcome.png)
 
+### ## 🎉 Live Demo
 
+Check out the live applications:
+-AI-Powered Python Tutor: https://skc-kaziazahar-tutordemo.onrender.com
 ### Cart Page
 ![Chat Page](/frontend/public/chatpage.png)
 
