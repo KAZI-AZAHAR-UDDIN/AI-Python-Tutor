@@ -129,20 +129,6 @@ npm run dev  # Start frontend
 
 ---
 
-## **🌍 Deployment**  
-
-### **Frontend (Vercel/Netlify)**  
-```
-npm run build
-vercel deploy  
-```
-
-### **Backend (Railway/Render)**  
-```
-git push railway main 
-```
-
-
 
 # **AI-Powered Python Tutor – Dynamic API Key Setup**  
 
