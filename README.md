@@ -12,11 +12,12 @@ Built with React.js for the frontend and Node.js + Express.js for the backend, t
 ### Home Page
 ![Home Page](/frontend/public/welcome.png)
 
+
 ### Cart Page
 ![Chat Page](/frontend/public/chatpage.png)
 
 
-## **✨ Features**  
+## **✨Features**  
 
 ### **🤖 AI-Powered Interactive Learning**  
 ✅ **AI Tutor**: Provides real-time explanations and guidance on Python concepts.  
