@@ -4,7 +4,7 @@
   "description": "<h1 align=\"center\">AI-Powered Python Tutor 🎓🐍</h1>",
   "main": "server.js",
   "scripts": {
-  "script": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+  "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
 "start": "npm run start --prefix backend " 
   },
   "keywords": [],
